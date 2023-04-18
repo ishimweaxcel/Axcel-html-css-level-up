@@ -1,0 +1,170 @@
+ *{
+    margin: 0px;
+    padding: 0px;
+ }
+ 
+ body{
+    background-color: rgb(6, 35, 63);
+    display: grid;
+    
+     
+   
+ }
+ .container{
+    margin-bottom: 0%;
+    margin: 30px;
+    display: grid;
+     
+    justify-content: center;
+    height: 50vh;
+    grid-template-columns: repeat(4, 0.5fr);
+    grid-auto-rows: minmax(150px, auto);
+    grid-gap: 15px;
+       
+ }
+ .first{
+        grid-column: 50px;
+        grid-template-columns: 50px;
+        height: 15px;
+        /* background-color: aquamarine; */
+        
+ }
+ .sub-first{
+    display: grid;
+    align-items: start;
+    background-color: rgb(16, 127, 224);
+    border-radius: 10px;
+    height: 20vh;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    color: rgb(245, 245, 220);
+ }
+ .sub-first img{
+     display: block;
+     border: 3px solid rgb(249, 250, 253);
+     width: 75px;
+     height: 10vh;
+     border-radius: 100%;
+ }
+ .daily{
+   border-radius: 10px;
+   border-top-right-radius: 0px;
+   border-top-left-radius: 0px;
+   display: grid;
+   background-color: rgba(7, 56, 121, 0.685);
+   height: 15vh;
+   padding: 10px;
+ }
+ li{
+   align-content: center;
+   list-style-type: none;
+   list-style-position: inside;
+   color: rgba(255, 255, 255, 0.815);
+   padding-bottom: 5px;
+   
+ }
+ 
+ .second{
+    /* grid-row-start: 2; */
+    /* grid-row-end: 4;     */
+    background-color: rgba(233, 144, 10, 0.973);
+    border-radius: 15px;
+    height: 18vh;
+
+ }
+ .second-first{
+   background-color: rgb(23, 122, 209);
+   margin-top: 16px;
+   height: 13vh;
+   color: rgb(62, 62, 211);
+   padding-top: 10px;
+   border-top-right-radius: 15px;
+   border-top-left-radius: 15px;
+   border-bottom-left-radius: 8px;
+   border-bottom-right-radius: 8px;
+ }
+ .work{
+   padding-left: 10px;
+
+ }
+ #dash{
+   display: flex;
+   justify-content: end;
+   margin-top: -23px;
+   padding-right: 15px;
+ }
+ 
+ .three{
+    /* grid-row: 3 span; */
+    background-color: bisque;
+    border-radius: 15px;
+    height: 18vh;
+ }
+ .three-first{
+   background-color: rgb(23, 122, 209);
+   margin-top: 16px;
+   height: 13vh;
+   color: rgb(62, 62, 211);
+   padding-top: 10px;
+   border-top-right-radius: 15px;
+   border-top-left-radius: 15px;
+   border-bottom-left-radius: 8px;
+   border-bottom-right-radius: 8px;
+ }
+ .play{
+    padding-left: 10px;
+ }
+ .four{
+   /* grid-row: 3 span; */
+   background-color: rgb(236, 64, 34);
+   border-radius: 15px;
+   height: 18vh;
+   width: 150px;
+   margin-left: 22px;
+}
+.four-first{
+  background-color: rgb(23, 122, 209);
+  margin-top: 16px;
+  height: 13vh;
+  color: rgb(62, 62, 211);
+  padding-top: 10px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+.Study{
+   padding-left: 10px;
+}
+
+ 
+ .five{
+   /* grid-row: 3 span; */
+   background-color: rgb(236, 64, 34);
+   border-radius: 15px;
+   height: 18vh;
+   width: 150px;
+   margin-left: 22px;
+}
+.five-first{
+  background-color: rgb(23, 122, 209);
+  margin-top: 16px;
+  height: 13vh;
+  color: rgb(62, 62, 211);
+  padding-top: 10px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+.Exercise{
+   padding-left: 10px;
+}
+ .six{
+    background-color: crimson;
+ }
+ .seven{
+    background-color: darkorange;
+ }
+
+ 
