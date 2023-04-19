@@ -3,10 +3,17 @@
     padding: 0px;
 }
 body{
-    background-color: black;
+    /* background-color: rgb(200, 200, 233); */
+}
+.container{
+    height: 100vh;
 }
 .navigation{
     display: flex;
+    justify-content: right;
+    padding-right: 20px;
+     
+    background-color: rgb(14, 142, 228);
 
 }
 .image{
@@ -16,8 +23,8 @@ body{
     margin-top: 1px;
     padding-left: 10px;
 }
+ 
 ul{
-    margin-top: 70px;
     display: flex;
     justify-content: right;
     list-style: none;
@@ -66,4 +73,50 @@ p1{
 }
 #h2{
     color: gray;
+}
+.sub-container{
+    height: 100%;
+    display: grid;
+    grid-template-areas: "legal find find find fourth fourth fourth fourth fourth seventh"
+                         "legal find find find fifth fifth fifth fifth fifth seventh"
+                         "legal find find find fifth fifth fifth fifth fifth seventh"
+                         "legal find find find fifth fifth fifth fifth fifth seventh"
+                         "legal finder finder finder fifth fifth fifth fifth fifth seventh"
+                         "legal finder finder finder fifth fifth fifth fifth fifth seventh"
+                         "legal finder finder finder sixth sixth sixth sixth sixth seventh"
+                         "legal finder finder finder sixth sixth sixth sixth sixth seventh"
+                         "legal finder finder finder sixth sixth sixth sixth sixth seventh"
+                         "legal finder finder finder sixth sixth sixth sixth sixth seventh";
+    grid-template-columns:  repeat(10,10%);
+    background-color: #664c4c;
+    grid-template-rows: repeat(10, 10%);
+    
+}
+.one{
+    background-color: bisque;
+    grid-area: legal;
+}
+.two{
+    background-color: aqua;
+    grid-area: find;
+}
+.three{
+    background-color: rgb(226, 194, 194);
+    grid-area: finder;
+}
+.four{
+    background-color: blueviolet;
+    grid-area: fourth;
+}
+.five{
+    background-color: blue;
+    grid-area: fifth;
+}
+.six{
+     background-color: chartreuse;
+     grid-area: sixth;
+}
+.seven{
+    background-color: crimson;
+    grid-area: seventh;
 }

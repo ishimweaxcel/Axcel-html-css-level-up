@@ -3,10 +3,13 @@
    padding: 0px;
 }
 body{
-   background-color: black;
+   background-color: rgb(20, 20, 20);
 }
 .navigation{
    display: flex;
+   background-color: black;
+   height: 120px;
+   
 
 }
 .image{
@@ -68,3 +71,29 @@ p1{
 #h2{
    color: gray;
 }
+.submit{
+   margin-top: 10px;
+   margin-bottom: 10px;
+   border: none;
+   border-radius: 15px;
+   font-size: 20px;
+   font-family: candara;
+   height: 45px;
+   outline: none;
+   width: 15%;
+   color: black;
+   background:  #FF5757;
+   cursor: pointer;
+   transition: .3s ;
+   
+}
+.input-field{
+   display: flex;
+   justify-content: center;
+   padding-top: 20px;
+   
+}
+.submit:hover{
+   box-shadow: 1px 5px 7px 1px rgb(14, 245, 187);
+}
+v
