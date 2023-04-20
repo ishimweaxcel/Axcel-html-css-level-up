@@ -99,6 +99,17 @@ p1{
 .two{
     background-color: aqua;
     grid-area: find;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-areas: repeat(2,1fr);
+    grid-template-areas: "twoB twoB"
+                         "twoA twoA";
+}
+.twoA{
+    grid-area: two1;
+}
+.twoB{
+    grid-area: two2;
 }
 .three{
     background-color: rgb(226, 194, 194);
