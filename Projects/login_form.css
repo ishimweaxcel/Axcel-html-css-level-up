@@ -5,10 +5,7 @@ body{
     background-image: linear-gradient(270deg, #19526B, #568498,#FFFFFF);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 150px;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
-    /* margin-top: 100px; */
+    
 
 }
 nav{
