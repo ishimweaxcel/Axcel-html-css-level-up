@@ -4,20 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" type="text/css" href="./contact.css">
     <title>Contact page</title>
 </head>
 <body>
-    <header>In Progress !!!!</header>
-    <p>Stay Tuned .....</p>
-    <div class="contents">
+    <div class="container">
+        <div class="navigation">
+            <div class="logo"><img src="../Image/Group 10.png" alt=""></div>
+            <div class="words">
         <ul>
             <li><a href="../index.html">Home</a></li>
-            <li id="about"><a href="./about.html">About</a></li>
+            <li><a href="./about.html">About</a></li>
             <li><a href="./portfolio.html">Portfolio</a></li>
-            <!-- <li><a href="./news.html">News</a></li> -->
-            <li><a href="./contact.html">Contact</a></li>
+            <li id="creative">Contact</a></li>
         </ul>
+        </div>
+        </div>
+        <div class="sub-container">
+             <header>
+                    <h1>Contact Me</h1>
+                    <a href="https://twitter.com/Ishimwe_Axcel"><img src="../Image/Twitter logo.png" alt="Twitter" id="twitter"></a>
+                </header>
+                <main>
+                    <form action="submit_message.php" method="post">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" required></textarea>
+                        <input type="submit" value="Submit Message">
+                    </form>
+                </main>
+            
+            
+
+        </div>
     </div>
 </body>
 </html>
