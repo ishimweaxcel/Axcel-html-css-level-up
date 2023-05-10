@@ -128,6 +128,8 @@ let fullName = [{"firstName": "Axcel","age":20},{"firstName": "Edith","age": 18}
 let filteredFullName = fullName.filter((item) => item.age ===17);
 
 console.log("fullName", filteredFullName);
+
+
  
   
 

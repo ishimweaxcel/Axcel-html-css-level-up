@@ -59,7 +59,18 @@ header{
     font-style: light;
 
 }
-.input-field .input{
+.username{
+    height: 45px;
+    width: 87%;
+    /* border: none; */
+    border-radius: 15px;
+    color: #252323;
+    font-size: 15px;
+    padding: 0 0 0 45px;
+    background-image: linear-gradient(-270deg, #f1e6e6, #d0ecec, #c6cecd, #67cfc8);
+    /* outline: none;  */
+}
+.password{
     height: 45px;
     width: 87%;
     /* border: none; */
