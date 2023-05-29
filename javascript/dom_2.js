@@ -5,19 +5,20 @@ let passWord = document.querySelector(".password");
 let button = document.querySelector(".submit");
 // console.log(userName);
 // console.log(passWord);
-console.log(button);
-arrayUser=JSON.parse(localStorage.getItem("the array is:")) || [];
+// console.log(button);
+let allUser=JSON.parse(localStorage.getItem("users")) || [];
+console.log("users", allUser);
 button.addEventListener('click', (event) =>{
     event.preventDefault();
-    console.log("Usernames are:", userName.value);
-    console.log("Password is:", passWord.value);
+    let filteredUser = allUser.filter(item => item.userName === userName.value);
+    if(filteredUser.length != 0){
+        alert("Welcome my Guy");
+    }else{
+        alert("ooh come on register first");
 
-    const credentials = {
-        userName: userName.value,
-        passWord: passWord.value
-    };
-    arrayUser.push(credentials);
-    console.log("the credentials are:", arrayUser);
-    localStorage.setItem("the array is:", JSON.stringify(arrayUser));
-    alert("Welcome to the Page");
+    }
+    // console.log("Usernames are:", userName.value);
+    // console.log("Password is:", passWord.value);
+
+    
 });

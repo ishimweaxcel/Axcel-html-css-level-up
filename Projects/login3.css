@@ -1,0 +1,61 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    height:100vh;
+    background-color: coral;
+    display: grid;
+    grid-template-areas: "uper uper uper uper uper uper uper uper uper uper"
+                         "center0 center0 center0 center0 center0 center0 center0 center0 center0 center0"
+                         "center0 center0 center0 center0 center0 center0 center0 center0 center0 center0"
+                         "center0 center0 center0 center0 center0 center0 center0 center0 center0 center0"
+                         "center0 center0 center0 center0 center0 center0 center0 center0 center0 center0"
+                         "center0 center0 center0 center0 center0 center0 center0 center0 center0 center0"
+                         "center0 center0 center0 center0 center0 center0 center0 center0 center0 center0"
+                         "center0 center0 center0 center0 center0 center0 center0 center0 center0 center0"
+                         "center0 center0 center0 center0 center0 center0 center0 center0 center0 center0"
+                         "down down down down down down down down down down";
+    grid-template-columns: repeat(10,10%);
+    grid-template-rows: repeat(10,10%);
+
+}
+.up{
+    background-color: cadetblue;
+    grid-area: uper;
+    display: grid;
+    grid-template-areas: "uper1 uper2";
+    grid-template-columns: 0.5fr 0.5fr;
+    grid-template-rows: 1fr;
+}
+.left{
+    grid-area: uper1;
+    background-color: darkkhaki;
+}
+.right{
+    grid-area: uper2;
+    background-color: mediumorchid;
+}
+.all{
+    background-color: rgb(226, 202, 43);
+    grid-area: center0;
+    display: grid;
+    grid-template-areas: "center1 center2"
+                         "center1 center2";
+    grid-template-columns: 0.5fr 0.5fr;
+    grid-template-rows: 0.5fr 0.5fr;
+}
+.part1{
+    grid-area: center1;
+    background-color: rgb(40, 200, 9);
+}
+.part2{
+    grid-area: center2;
+    background-color: darkorchid;
+}
+.bottom{
+    grid-area: down;
+    background-color: forestgreen;
+     
+     
+}

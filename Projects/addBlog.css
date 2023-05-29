@@ -1,0 +1,9 @@
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 0.3fr 0.7fr;
+}
+
+.blogs{
+    background-color: rgb(132, 124, 124);
+}

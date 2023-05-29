@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    /* Style for the overlay container */
+    .overlay-container {
+        position: relative;
+    }
+
+    /* Style for the contact form container */
+    .contact-form {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 50%;
+        height: 100%;
+        background-color: white;
+        z-index: 2;
+        padding: 20px;
+    }
+
+    /* Style for the address container */
+    .address {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 50%;
+        height: 100%;
+        background-color: lightgray;
+        z-index: 1;
+        padding: 20px;
+    }
+</style>
+</head>
+<body>
+    <div class="overlay-container">
+        <div class="contact-form">
+            <h2>Contact Us</h2>
+            <form>
+                <!-- Your contact form elements go here -->
+                <input type="text" placeholder="Name"><br>
+                <input type="email" placeholder="Email"><br>
+                <textarea placeholder="Message"></textarea><br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+        <div class="address">
+            <h2>Our Address</h2>
+            <p>123 Main Street<br>
+               City, State, Zip Code</p>
+        </div>
+    </div>
+</body>
+</html>
